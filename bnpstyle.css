@@ -1,0 +1,89 @@
+.HomeButton {
+
+    width: 4%;
+    height: 8vh;
+    border-radius: 50%;
+    border-style: none;
+background-color: rgb(255, 223, 223);
+    position: fixed;
+    top: 5%;
+    left: 2.5%;
+    z-index: 99;
+}
+
+.HomeButton img{
+
+    width: 50%;
+
+}
+
+
+.bnppagetop {
+
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 60%;
+}
+
+.bnppagetop img {
+
+width: auto;
+height: 100vh;
+border-radius: 50px;
+position: absolute;
+position: absolute;
+left: 50%;
+
+}
+
+.bnppagetop h1 {
+
+    font-family: Oswald;
+    src: url(fonts\Oswald.zip);
+font-size: 5em;
+color: rgb(179, 49, 49);
+position: absolute;
+right: 60%;
+margin-top: 10%;
+
+}
+
+
+.bnppagetop h2 {
+
+font-family: Oswald;
+src: url(fonts/Oswald.zip);
+font-size: 7em;
+text-align: center;
+color: rgb(179, 49, 49);
+position: absolute;
+right: 50%;
+margin-top: 20%;
+
+
+}
+
+
+.bnparticle {
+    width: 100%;
+    font-style: italic;
+    font-family: Oswald;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    
+    }
+
+.bnparticle h1 {
+
+font-size: 3em;
+color: rgb(179, 49, 49);
+font-style: normal;
+
+}
+
+
+.bnparticle p {
+
+    width: 50%;
+}
