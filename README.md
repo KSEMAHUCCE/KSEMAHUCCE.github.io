@@ -1,1 +1,0 @@
-# KSEMAHUCCE.github.io
