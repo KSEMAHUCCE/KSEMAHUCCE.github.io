@@ -95,7 +95,7 @@ transition: color 1s, transform 1s; /*ADDED on 02/28/2023*/
 
 .navigation a:hover {
 
-    color: rgb(122, 122, 122);
+    color: rgb(200, 25, 25);/*ADDED on 02/28/2023*/
     transform:scale(150%); 
 
 }
