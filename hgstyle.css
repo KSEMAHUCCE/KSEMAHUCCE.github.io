@@ -27,16 +27,65 @@ background-color: rgb(255, 223, 223);
     margin-bottom: 60%;
 }
 
+@keyframes pageimage {
+    /*ADDED ON 02/28/2023*/
+ from {
+    opacity: 0;
+ }
+
+to {
+    opacity: 100%;
+}
+
+
+ from {
+    left: 0%;
+ }   
+
+to {
+    left: 3.5%;
+}
+
+}
+
 .hgpagetop img {
 
 width: auto;
 height: 100vh;
 border-radius: 50px;
 position: absolute;
-position: absolute;
 right: 50%;
-
+/*ADDED ON 02/28/2023*/
+animation-name: pageimage;
+animation-duration: 4s;
+animation-delay: 0s;
+animation-fill-mode: forwards;
+animation-timing-function: ease-in-out;
+opacity: 0%;
 }
+
+@keyframes pagetitle {
+    /*ADDED ON 02/28/2023*/
+    
+    from {
+        top: 0;
+    }
+    to {
+        top: 75px;
+    }
+    
+    }
+
+
+.innerdiv h1, h2 {
+    /*ADDED ON 02/28/2023*/
+        
+animation-name: pagetitle;
+animation-duration: 3s;
+animation-delay: 0.5s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+        }
 
 .hgpagetop h1 {
 

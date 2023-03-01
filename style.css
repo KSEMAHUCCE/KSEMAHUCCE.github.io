@@ -89,12 +89,14 @@ aside img {
 text-decoration: none;
 color: black;
 text-shadow: 5px 5px 5px rgba(122, 122, 122, 0.3);
-
+display: block; /*ADDED on 02/28/2023*/
+transition: color 1s, transform 1s; /*ADDED on 02/28/2023*/
 }
 
 .navigation a:hover {
 
     color: rgb(122, 122, 122);
+    transform:scale(150%); 
 
 }
 
